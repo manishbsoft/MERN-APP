@@ -1,6 +1,7 @@
-const API_KEY = 'AIzaSyDjB7gnMvZ9wdAoc8YvbO15D8XLhJdjw8s';
 const axios = require('axios');
 const HttpError = require('../models/http-error');
+
+const API_KEY = process.env.GOOGLE_API_KEY;
 
 async function getCoordsForAddress(address) {
     return { // if you don't have API_KEY / credit-card to purchage google's api - comment this return if you have API_KEY

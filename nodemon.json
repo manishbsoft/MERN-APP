@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DB_USER": "manish",
+        "DB_PASSWORD": "d6mnHQ5TDuJp5z1q@cluster0-eiy2b",
+        "DB_NAME": "mern",
+        "GOOGLE_API_KEY": "AIzaSyDjB7gnMvZ9wdAoc8YvbO15D8XLhJdjw8s",
+        "JWT_KEY": "supersecret_dont_share"
+    }
+}
